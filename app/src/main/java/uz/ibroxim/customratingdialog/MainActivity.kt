@@ -10,24 +10,22 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val customRating = CustomRating(this)
 
-        println("MainActivity started ")
+        customRating.init()
+            .setShowingInterval(2)                  // Each launching of application, default is 5
 
-//        val customRating = CustomRating(this)
-
-//        customRating.init()
-//            .setShowingInterval(2)
-//
-//        customRating.begin()
-//            .setTitle("Salom")
-//            .setMessage("Qalesan")
-//            .setPositiveButtonText("bajar")
-//            .setNegativeButtonText("Bekor")
-//            .setTitleColor(Color.BLUE)
-//            .setMessageColor(Color.GREEN)
-//            .setPositiveButtonColor(Color.YELLOW)
-//            .setNegativeButtonColor(Color.MAGENTA)
-//            .setAppUrl("dsdsds")
+        customRating.begin()
+            .setTitle("Title")
+            .setMessage("Message")
+            .setPositiveButtonText("Ok")
+            .setNegativeButtonText("Cancel")
+            .setTitleColor(Color.BLACK)                 // Optional default color is BLACK
+            .setMessageColor(Color.BLACK)               // Optional default color is BLACK
+            .setPositiveButtonColor(Color.RED)          // Optional default color is RED
+            .setNegativeButtonColor(Color.RED)          // Optional default color is RED
+            .setRatingBarColor(Color.MAGENTA, Color.GRAY) // Optional
+            .setAppUrl("your app url in google play store")
 
 //        try {
 //
