@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rate_dialog_title">Оцените приложение</string>
+    <string name="rate_dialog_message">Если вам понравилось это приложение, пожалуйста, оцените его и оставьте свой отзыв.</string>
+    <string name="rate_dialog_ok">Оценка</string>
+    <string name="rate_dialog_cancel">Позже</string>
+    <string name="rate_dialog_no">Нет, спасибо</string>
+</resources>

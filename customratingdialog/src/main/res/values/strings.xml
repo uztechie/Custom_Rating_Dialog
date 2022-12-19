@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">CustomRatingDialog</string>
+    <string name="rate_dialog_title">Ilovani baholang</string>
+    <string name="rate_dialog_message">Agar ushbu ilova sizga ma\'qul kelgan bo\'lsa iltimos uni baholang va fikrlaringizni qoldiring. </string>
+    <string name="rate_dialog_ok">Baholash</string>
+    <string name="rate_dialog_cancel">Keyinroq</string>
+    <string name="rate_dialog_no">Yo\'q rahmat</string>
+</resources>

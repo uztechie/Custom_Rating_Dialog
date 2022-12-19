@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rate_dialog_title">Иловани баҳоланг</string>
+    <string name="rate_dialog_message">Агар ушбу илова сизга маъқул келган бўлса илтимос уни баҳоланг ва фикрларингизни қолдиринг.</string>
+    <string name="rate_dialog_ok">Баҳолаш</string>
+    <string name="rate_dialog_cancel">Кейинроқ</string>
+    <string name="rate_dialog_no">Йўқ раҳмат</string>
+</resources>
